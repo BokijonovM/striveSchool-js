@@ -38,7 +38,7 @@ else{
 absoluteDifferenceNumber = parseInt(prompt("Enter a number: "))
 crazyDiff = (absoluteDifferenceNumber, 19)
 if(absoluteDifferenceNumber < 19){
-    console.log("Difference is: " + 19 - absoluteDifferenceNumber)
+    console.log(19 - absoluteDifferenceNumber)
 }
 else if(absoluteDifferenceNumber > 19){
     console.log((absoluteDifferenceNumber - 19) * 3)
@@ -51,7 +51,14 @@ else{
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let boundary = (n)
+if(n > 20 && n < 100 || n === 400){
+    console.log("True")
+}
+else{
+    console.log("False")
+}
+
 
 /* EXERCISE 5
  Write a function called "strivify" which accepts a string as a parameter.
