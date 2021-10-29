@@ -65,38 +65,56 @@ else{
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let strivify = ("Hello I am from Uzbekistan!")
+let simpleString = "Strive"
+if(strivify.charAt(0, 4) === simpleString){
+    console.log(strivify)
+}
+else{
+    console.log("Strive " + strivify)
+}
 
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
  HINT: Modulus Operator
 */
 
-/* WRITE YOUR ANSWER HERE */
+
+check3and7
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
 
-/* WRITE YOUR ANSWER HERE */
+let reversedString = 'Strive';
+let reversed = reversedString.split('').reverse().join('');
+console.log(reversed);
+
 
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let upperFirst = "strive";
+console.log(upperFirst.charAt(0).toUpperCase()); // Returns "Strive"
 
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let cutString = "Hello My name is Muhsin"
+delete cutString[0]
+delete cutString.pop
+console.log(cutString)
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 
-/* WRITE YOUR ANSWER HERE */
+
+rNumbers = [0,1,2,3,4,5,6,7,8,9,10]
+let giveMeRandom = n  
+var item = rNumbers[Math.floor(Math.random()*rNumbers.length)];
 
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
